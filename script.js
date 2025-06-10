@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "Assets/songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "Assets/songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "Assets/songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "Assets/songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "Assets/songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "Assets/songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "Assets/songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "Assets/songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "Assets/songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "Assets/songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "In The End - Linking Park", filePath: "Assets/songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "The A Team - Ed Sheeran", filePath: "Assets/songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Photograph - Ed Sheeran", filePath: "Assets/songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Impossible - James Arthur", filePath: "Assets/songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "End of Beginning - Djo", filePath: "Assets/songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "This is how you reming me - The Nickelbacks", filePath: "Assets/songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Warzone - The Wanted", filePath: "Assets/songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Monster - Eminem", filePath: "Assets/songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Starboy - The Weeknd", filePath: "Assets/songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Shots - Imagine Dragons", filePath: "Assets/songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
